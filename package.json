@@ -51,6 +51,7 @@
     "jest-css-modules-transform": "2.5.0",
     "prop-types": "15.7.2",
     "react-redux": "7.1.1",
+    "react-test-renderer": "16.9.0",
     "redux": "4.0.4",
     "style-loader": "1.0.0",
     "webpack": "4.40.2",
