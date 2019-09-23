@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "format": "prettier --write \"src/**/*.js\"",
     "eslint-fix": "eslint --fix \"src/**/*.js\"",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "babel-eslint": "10.0.3",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
+    "coveralls": "3.0.6",
     "css-loader": "3.2.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",

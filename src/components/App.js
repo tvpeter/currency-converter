@@ -5,8 +5,8 @@ class App extends Component {
     render () {
         return (
             <div className="App">
-                <h4> Hello  </h4>
-                <p>from Currency Converter</p>
+                <h4> Hello .. </h4>
+                <p>Add most of the config including coveralls</p>
             </div>
         );
     }
